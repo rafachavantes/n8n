@@ -1,0 +1,96 @@
+[
+  {
+    "headers": {
+      "host": "n8n.moara.digital",
+      "content-length": "1776",
+      "accept": "application/json",
+      "cache-control": "no-cache",
+      "content-type": "application/json; charset=utf-8",
+      "doppus-token": "b8d16baf6e194ab4612706101fcf7929",
+      "doppus-version": "3.0",
+      "expect": "100-continue",
+      "x-forwarded-for": "15.228.189.17",
+      "x-forwarded-host": "n8n.moara.digital",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https",
+      "x-forwarded-server": "539b101d049a",
+      "x-real-ip": "15.228.189.17",
+      "x-user-agent": "Doppus",
+      "accept-encoding": "gzip"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "transaction_code": "31401335",
+      "registration_date": "2023-11-28 12:49:45",
+      "customer": {
+        "name": "Carlos Eduardo de Medeiros Gonçalves Teixeira",
+        "email": "cadu.gonca@hotmail.com",
+        "phone": "(53) 99701-3698",
+        "doc_type": "CPF",
+        "doc": "054.769.660-48",
+        "state_doc": "ISENTO"
+      },
+      "transaction": {
+        "sale_value": 76.9,
+        "total_value": 76.9,
+        "transaction_fee": 1,
+        "doppus_fee": 3.07,
+        "producer_fee": 72.83
+      },
+      "payment": {
+        "payment_type": "PIX",
+        "plots": 1,
+        "value": 76.9
+      },
+      "items": [
+        {
+          "code": "67166",
+          "name": "Introdução ao Casqueamento & Ferrageamento",
+          "description": "Introdução ao Casqueamento & Ferrageamento",
+          "sales_plan_code": "72355",
+          "sales_plan_name": "Plano base",
+          "image": "secure.ferrageamento.com.br/image/product/77087154/60715/1684172012641_291342/png",
+          "type": "INFOPRODUCT",
+          "amount": 1,
+          "item_value": 67,
+          "sale_value": 67
+        },
+        {
+          "code": "65401",
+          "name": "Acesso vitalício ao Curso Introdução ao Casqueamento & Ferrageamento",
+          "description": "Acesso vitalício ao Curso Introdução ao Casqueamento & Ferrageamento",
+          "sales_plan_code": "42948",
+          "sales_plan_name": "Plano base",
+          "image": "secure.ferrageamento.com.br/image/product/77087154/55032/1677449618006_900236/png",
+          "type": "ORDERBUMP",
+          "amount": 1,
+          "item_value": 9.9,
+          "sale_value": 9.9
+        }
+      ],
+      "tracking": {
+        "ip_address": "138.118.136.36",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "utm_campaign": "CP026 TC AD7 CBO - Advantage+ shopping Campaign",
+        "utm_term": "Advantage+ shopping Ad set 1",
+        "utm_content": "AD 7 - Mapeamento 1"
+      },
+      "last_status_date": "2023-11-28 12:51:48",
+      "status": "APPROVED",
+      "status_log": [
+        {
+          "registration_date": "2023-11-28 12:49:46",
+          "status": "WAITING",
+          "message": "QRCode para pagamento do PIX gerado com sucesso."
+        },
+        {
+          "registration_date": "2023-11-28 12:51:48",
+          "status": "APPROVED",
+          "message": "Pronto, seu pagamento foi aprovado!"
+        }
+      ]
+    }
+  }
+]
